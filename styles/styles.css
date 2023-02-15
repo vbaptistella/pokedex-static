@@ -1,0 +1,199 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    width: 100vw;
+    height: 100vw;
+    overflow: auto;
+}
+
+th {
+    text-align: center;
+}
+
+td {
+    position: relative;
+}
+
+tr {
+    border: none;
+}
+
+.pkmn-card {
+    box-shadow: 0 0 5px rgb(128 128 128 / 50%);
+    margin: 0 10%;
+    border-radius: 5px;
+    width: 180px;
+    overflow: hidden;
+}
+
+.pkmn-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    height: 20px;
+}
+
+.pkmn-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 120px;
+}
+
+.pkmn-image img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.pkmn-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background: linear-gradient(90deg, #ccc, #eee, #ccc);
+}
+
+.pkmn-name {
+    font-weight: bold;
+}
+
+.pkmn-number {
+    font-size: 12px;
+    justify-self: flex-start;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 5px;
+}
+
+.pkmn-gen {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    margin-right: 5px;
+    font-weight: bold;
+}
+
+.pkmn-types {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    text-transform: uppercase;
+    box-sizing: border-box;
+}
+
+.pkmn-type {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+.pkmn-type:empty {
+    width: 0;
+}
+
+/* TYPES */
+
+.pkmn-type.bug {
+    background-color: #A8B820;
+}
+
+.pkmn-type.dark {
+    background-color: #705848;
+}
+
+.pkmn-type.dragon {
+    background-color: #7038F8;
+}
+
+.pkmn-type.electric {
+    background-color: #F8D030;
+    color: #000;
+}
+
+.pkmn-type.fairy {
+    background-color: #EE99AC;
+}
+
+.pkmn-type.fighting {
+    background-color: #C03028;
+}
+
+.pkmn-type.fire {
+    background-color: #F08030;
+}
+
+.pkmn-type.flying {
+    background-color: #A890F0;
+}
+
+.pkmn-type.ghost {
+    background-color: #705898;
+}
+
+.pkmn-type.grass {
+    background-color: #78C850;
+}
+
+.pkmn-type.ground {
+    background-color: #E0C068;
+    color: #000;
+}
+
+.pkmn-type.ice {
+    background-color: #98D8D8;
+    color: #000;
+}
+
+.pkmn-type.normal {
+    background-color: #A8A878;
+}
+
+.pkmn-type.poison {
+    background-color: #A040A0;
+}
+
+.pkmn-type.psychic {
+    background-color: #F85888;
+}
+
+.pkmn-type.rock {
+    background-color: #B8A038;
+}
+
+.pkmn-type.steel {
+    background-color: #B8B8D0;
+}
+
+.pkmn-type.water {
+    background-color: #6890F0;
+}
+
+/* GENERATIONS */
+
+.pkmn-gen.I {
+    color: #ff0000
+}
+
+.pkmn-gen.II {
+    color: #DAA520;
+}
+
+.pkmn-gen.IV {
+    color: #AAAAFF;
+}
+
+.pkmn-gen.VI {
+    color: #DD608C;
+}
+
+.pkmn-gen.VIII {
+    color: #F1912B;
+}
